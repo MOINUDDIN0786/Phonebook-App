@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element >
+<web-app>
+  <display-name>Phonebook-App</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>register.jsp</welcome-file>
+    <welcome-file>login.jsp</welcome-file>
+    <welcome-file>addContact.jsp</welcome-file>
+    <welcome-file>viewContact.jsp</welcome-file>
+  
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>RegisterServlet</display-name>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
+</element>
